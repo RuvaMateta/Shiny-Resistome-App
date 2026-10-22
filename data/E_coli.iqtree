@@ -1,0 +1,263 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: core/E_coli.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 718077
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 33 sequences with 203878 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 142277
+Number of distinct site patterns: 53329
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+ASC+G4
+
+Rate parameter R:
+
+  A-C: 1.0071
+  A-G: 5.9312
+  A-T: 1.6846
+  C-G: 0.3615
+  C-T: 6.0017
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1954
+  pi(C) = 0.3047
+  pi(G) = 0.306
+  pi(T) = 0.1938
+
+Rate matrix Q:
+
+  A    -1.322    0.1657    0.9801    0.1763
+  C    0.1063    -0.794   0.05974     0.628
+  G    0.6259   0.05949   -0.7901    0.1046
+  T    0.1778    0.9876    0.1652    -1.331
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.7188
+
+ Category  Relative_rate  Proportion
+  1         0.07821        0.25
+  2         0.3723         0.25
+  3         0.9316         0.25
+  4         2.618          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -2207055.8587 (s.e. 2918.7247)
+Unconstrained log-likelihood (without tree): -1698451.7208
+Number of free parameters (#branches + #model parameters): 68
+Akaike information criterion (AIC) score: 4414247.7175
+Corrected Akaike information criterion (AICc) score: 4414247.7635
+Bayesian information criterion (BIC) score: 4414943.0363
+
+Total tree length (sum of branch lengths): 1.4698
+Sum of internal branch lengths: 0.5474 (37.2424% of tree length)
+
+WARNING: 1 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'E_coli_SRR29213288' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----E_coli_SRR29213288
+|
+|                                                  +----E_coli_SRR29213289
+|                                               +--| (100)
+|                                               |  +-----E_coli_SRR36707264
+|                                           +---| (100)
+|                                           |   |        +--E_coli_SRR31865332
+|                                           |   |     +--| (100)
+|                                           |   |     |  +--E_coli_SRR31865337
+|                                           |   |  +--| (100)
+|                                           |   |  |  |     +--E_coli_SRR36707266
+|                                           |   |  |  |  +--| (100)
+|                                           |   |  |  |  |  +--Reference
+|                                           |   |  |  +--| (100)
+|                                           |   |  |     +--E_coli_SRR36707392
+|                                           |   +--| (100)
+|                                           |      |  +----E_coli_SRR31865355
+|                                           |      +--| (100)
+|                                           |         +---E_coli_SRR36707355
+|                                       +---| (100)
+|                                       |   |              +--E_coli_SRR29213310
+|                                       |   |           +--| (100)
+|                                       |   |           |  |     +**E_coli_SRR36707271
+|                                       |   |           |  |  +**| (39)
+|                                       |   |           |  |  |  +--E_coli_SRR36707306
+|                                       |   |           |  +--| (100)
+|                                       |   |           |     +--E_coli_SRR36707274
+|                                       |   |        +--| (65)
+|                                       |   |        |  +---E_coli_SRR29213328
+|                                       |   |     +--| (61)
+|                                       |   |     |  |     +---E_coli_SRR31865353
+|                                       |   |     |  |  +--| (100)
+|                                       |   |     |  |  |  +---E_coli_SRR31865362
+|                                       |   |     |  +--| (80)
+|                                       |   |     |     |  +----E_coli_SRR31865377
+|                                       |   |     |     +--| (80)
+|                                       |   |     |        +----E_coli_SRR36707269
+|                                       |   |  +--| (100)
+|                                       |   |  |  |  +---E_coli_SRR29213329
+|                                       |   |  |  +--| (100)
+|                                       |   |  |     +----E_coli_SRR31865359
+|                                       |   +--| (100)
+|                                       |      |   +--E_coli_SRR29213334
+|                                       |      +---| (100)
+|                                       |          +--E_coli_SRR31865334
+|                             +---------| (100)
+|                             |         +------------E_coli_SRR31865336
+|                      +------| (100)
+|                      |      |      +-----------E_coli_SRR31865339
+|                      |      +------| (100)
+|                      |             +-----------E_coli_SRR36707307
+|     +----------------| (100)
+|     |                |            +**E_coli_SRR29213325
+|     |                +------------| (100)
+|     |                             +**E_coli_SRR29213326
+|  +--| (100)
+|  |  +-------E_coli_SRR36707267
++--| (100)
+|  +------E_coli_SRR31865329
+|
++-----E_coli_SRR31865331
+
+Tree in newick format:
+
+(E_coli_SRR29213288:0.0388243032,((((((((E_coli_SRR29213289:0.0360215967,E_coli_SRR36707264:0.0371421993)100:0.0092643915,(((E_coli_SRR31865332:0.0210983451,E_coli_SRR31865337:0.0070891427)100:0.0099367939,((E_coli_SRR36707266:0.0147982376,Reference:0.0063224212)100:0.0029756535,E_coli_SRR36707392:0.0172479738)100:0.0109284349)100:0.0114684490,(E_coli_SRR31865355:0.0302848733,E_coli_SRR36707355:0.0256072891)100:0.0074924888)100:0.0127647380)100:0.0286002529,(((((E_coli_SRR29213310:0.0043840476,((E_coli_SRR36707271:0.0000004905,E_coli_SRR36707306:0.0000174823)39:0.0000004905,E_coli_SRR36707274:0.0000174824)100:0.0092054426)100:0.0231592617,E_coli_SRR29213328:0.0289860104)65:0.0055779313,((E_coli_SRR31865353:0.0282759624,E_coli_SRR31865362:0.0266663010)100:0.0076876811,(E_coli_SRR31865377:0.0305769414,E_coli_SRR36707269:0.0331071125)80:0.0064155503)80:0.0044394327)61:0.0040890559,(E_coli_SRR29213329:0.0290135704,E_coli_SRR31865359:0.0345189677)100:0.0075971345)100:0.0193226693,(E_coli_SRR29213334:0.0115136725,E_coli_SRR31865334:0.0139457434)100:0.0274327569)100:0.0237464424)100:0.0275753854,E_coli_SRR31865336:0.0829946398)100:0.0651937690,(E_coli_SRR31865339:0.0748236787,E_coli_SRR36707307:0.0747025346)100:0.0445412622)100:0.0464993229,(E_coli_SRR29213325:0.0000004905,E_coli_SRR29213326:0.0000004905)100:0.0806669248)100:0.1031346336,E_coli_SRR36707267:0.0529891047)100:0.0178164369,E_coli_SRR31865329:0.0423809137)100:0.0105408604,E_coli_SRR31865331:0.0384209245);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -2207056.61925348
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----E_coli_SRR29213288
+|
+|                                                  +----E_coli_SRR29213289
+|                                               +--| (100)
+|                                               |  +-----E_coli_SRR36707264
+|                                           +---| (100)
+|                                           |   |        +--E_coli_SRR31865332
+|                                           |   |     +--| (100)
+|                                           |   |     |  +--E_coli_SRR31865337
+|                                           |   |  +--| (100)
+|                                           |   |  |  |     +--E_coli_SRR36707266
+|                                           |   |  |  |  +--| (100)
+|                                           |   |  |  |  |  +--Reference
+|                                           |   |  |  +--| (100)
+|                                           |   |  |     +--E_coli_SRR36707392
+|                                           |   +--| (100)
+|                                           |      |  +----E_coli_SRR31865355
+|                                           |      +--| (100)
+|                                           |         +---E_coli_SRR36707355
+|                                       +---| (100)
+|                                       |   |              +--E_coli_SRR29213310
+|                                       |   |           +--| (100)
+|                                       |   |           |  |     +**E_coli_SRR36707271
+|                                       |   |           |  |  +**| (39)
+|                                       |   |           |  |  |  +--E_coli_SRR36707306
+|                                       |   |           |  +--| (100)
+|                                       |   |           |     +--E_coli_SRR36707274
+|                                       |   |        +--| (65)
+|                                       |   |        |  +---E_coli_SRR29213328
+|                                       |   |     +--| (61)
+|                                       |   |     |  |     +---E_coli_SRR31865353
+|                                       |   |     |  |  +--| (100)
+|                                       |   |     |  |  |  +---E_coli_SRR31865362
+|                                       |   |     |  +--| (80)
+|                                       |   |     |     |  +----E_coli_SRR31865377
+|                                       |   |     |     +--| (80)
+|                                       |   |     |        +----E_coli_SRR36707269
+|                                       |   |  +--| (100)
+|                                       |   |  |  |  +---E_coli_SRR29213329
+|                                       |   |  |  +--| (100)
+|                                       |   |  |     +----E_coli_SRR31865359
+|                                       |   +--| (100)
+|                                       |      |   +--E_coli_SRR29213334
+|                                       |      +---| (100)
+|                                       |          +--E_coli_SRR31865334
+|                             +---------| (100)
+|                             |         +------------E_coli_SRR31865336
+|                      +------| (100)
+|                      |      |      +-----------E_coli_SRR31865339
+|                      |      +------| (100)
+|                      |             +-----------E_coli_SRR36707307
+|     +----------------| (100)
+|     |                |                  +**E_coli_SRR29213325
+|     |                |               +**|
+|     |                |               |  +**E_coli_SRR29213327
+|     |                |            +**|
+|     |                |            |  +**E_coli_SRR29213331
+|     |                +------------| (100)
+|     |                             +**E_coli_SRR29213326
+|  +--| (100)
+|  |  +-------E_coli_SRR36707267
++--| (100)
+|  +------E_coli_SRR31865329
+|
++-----E_coli_SRR31865331
+
+
+Consensus tree in newick format: 
+
+(E_coli_SRR29213288:0.0388242941,((((((((E_coli_SRR29213289:0.0360220428,E_coli_SRR36707264:0.0371429897)100:0.0092649273,(((E_coli_SRR31865332:0.0210984086,E_coli_SRR31865337:0.0070895751)100:0.0099367602,((E_coli_SRR36707266:0.0147983117,Reference:0.0063222665)100:0.0029760760,E_coli_SRR36707392:0.0172480420)100:0.0109285050)100:0.0114684070,(E_coli_SRR31865355:0.0302854138,E_coli_SRR36707355:0.0256073036)100:0.0074929851)100:0.0127646844)100:0.0286009552,(((((E_coli_SRR29213310:0.0043839765,((E_coli_SRR36707271:0.0000010423,E_coli_SRR36707306:0.0000179033)39:0.0000010423,E_coli_SRR36707274:0.0000178934)100:0.0092054650)100:0.0231598538,E_coli_SRR29213328:0.0289867536)65:0.0055783756,((E_coli_SRR31865353:0.0282765603,E_coli_SRR31865362:0.0266669339)100:0.0076876477,(E_coli_SRR31865377:0.0305775841,E_coli_SRR36707269:0.0331078615)80:0.0064154149)80:0.0044394049)61:0.0040895329,(E_coli_SRR29213329:0.0290141009,E_coli_SRR31865359:0.0345196747)100:0.0075971393)100:0.0193226307,(E_coli_SRR29213334:0.0115141717,E_coli_SRR31865334:0.0139457746)100:0.0274333417)100:0.0237464323)100:0.0275756986,E_coli_SRR31865336:0.0829962282)100:0.0651948476,(E_coli_SRR31865339:0.0748246258,E_coli_SRR36707307:0.0747037628)100:0.0445418787)100:0.0464998961,(((E_coli_SRR29213325:0.0000000000,E_coli_SRR29213327:0.0000000000):0.0000000000,E_coli_SRR29213331:0.0000000000):0.0000010423,E_coli_SRR29213326:0.0000010423)100:0.0806678992)100:0.1031362218,E_coli_SRR36707267:0.0529898490)100:0.0178169908,E_coli_SRR31865329:0.0423814359)100:0.0105408784,E_coli_SRR31865331:0.0384214484);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t tree/E_coli.treefile -m "GTR{1.00711,5.93124,1.68461,0.361526,6.00173}+F{0.195444,0.304747,0.306025,0.193784}+ASC+G4{0.718824}" --length 203878
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s core/E_coli.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s core/E_coli.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Oct 10 03:13:33 2026
+Total CPU time used: 1840.551348 seconds (0h:30m:40s)
+Total wall-clock time used: 636.111346 seconds (0h:10m:36s)
+

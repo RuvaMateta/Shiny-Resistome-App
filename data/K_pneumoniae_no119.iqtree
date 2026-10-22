@@ -1,0 +1,259 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: core/K_pneumoniae_no119.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 903627
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 31 sequences with 87528 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 59776
+Number of distinct site patterns: 15423
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+ASC+G4
+
+Rate parameter R:
+
+  A-C: 0.9756
+  A-G: 5.8973
+  A-T: 1.6260
+  C-G: 0.4455
+  C-T: 5.8151
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1675
+  pi(C) = 0.3336
+  pi(G) = 0.3356
+  pi(T) = 0.1632
+
+Rate matrix Q:
+
+  A    -1.508     0.191     1.162    0.1558
+  C   0.09593   -0.7408   0.08776    0.5571
+  G    0.5799   0.08722   -0.7629   0.09581
+  T    0.1599     1.138     0.197    -1.495
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5488
+
+ Category  Relative_rate  Proportion
+  1         0.04276        0.25
+  2         0.2826         0.25
+  3         0.8528         0.25
+  4         2.822          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -725874.8324 (s.e. 1218.5418)
+Unconstrained log-likelihood (without tree): -631401.3105
+Number of free parameters (#branches + #model parameters): 68
+Akaike information criterion (AIC) score: 1451885.6647
+Corrected Akaike information criterion (AICc) score: 1451885.7720
+Bayesian information criterion (BIC) score: 1452523.4853
+
+Total tree length (sum of branch lengths): 1.0732
+Sum of internal branch lengths: 0.5111 (47.6200% of tree length)
+
+WARNING: 7 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'K_pneumoniae_ERR13744103' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--------------------K_pneumoniae_ERR13744103
+|
+|                                                             +--K_pneumoniae_ERR13744107
+|                          +----------------------------------| (100)
+|                          |                                  +--K_pneumoniae_ERR13744140
+|                      +---| (100)
+|                      |   |                                     +--K_pneumoniae_ERR15165589
+|                      |   |                                  +--| (98)
+|                      |   |                                  |  +--K_pneumoniae_ERR15165602
+|                      |   |                               +--| (100)
+|                      |   |                               |  |  +**K_pneumoniae_ERR15165592
+|                      |   |                               |  +**| (45)
+|                      |   |                               |     +**K_pneumoniae_ERR15165593
+|                      |   +-------------------------------| (100)
+|                      |                                   +--K_pneumoniae_SRR31202985
+|                   +--| (100)
+|                   |  +-------------------------------------K_pneumoniae_SRR31202998
+|                +--| (31)
+|                |  |                                        +**K_pneumoniae_ERR13744109
+|                |  |     +----------------------------------| (100)
+|                |  |     |                                  +**K_pneumoniae_ERR13744112
+|                |  |  +--| (62)
+|                |  |  |  +-------------------------------K_pneumoniae_SRR31202983
+|                |  +--| (36)
+|                |     |                             +----K_pneumoniae_ERR13744111
+|                |     |                         +---| (100)
+|                |     |                         |   +----K_pneumoniae_ERR13744132
+|                |     +-------------------------| (100)
+|                |                               |      +--K_pneumoniae_SRR31202976
+|                |                               +------| (100)
+|                |                                      |  +**K_pneumoniae_SRR31202995
+|                |                                      +**| (99)
+|                |                                         +--K_pneumoniae_SRR31202997
+|             +--| (33)
+|             |  |  +--------------------------------K_pneumoniae_SRR31202986
+|             |  +--| (27)
+|             |     +--------------------------------K_pneumoniae_SRR32003848
++-------------| (100)
+|             |                                      +--K_pneumoniae_ERR13744150
+|             |                                   +--| (100)
+|             |                                   |  +--Reference
+|             |                                +--| (97)
+|             |                                |  +--K_pneumoniae_SRR31202914
+|             |   +----------------------------| (100)
+|             |   |                            |              +--K_pneumoniae_ERR15165590
+|             |   |                            |           +**| (95)
+|             |   |                            |           |  +**K_pneumoniae_ERR15165597
+|             |   |                            |        +**| (3)
+|             |   |                            |        |  +**K_pneumoniae_ERR15165599
+|             |   |                            |     +**| (3)
+|             |   |                            |     |  +**K_pneumoniae_ERR15165595
+|             |   |                            |  +**| (44)
+|             |   |                            |  |  +--K_pneumoniae_ERR15165594
+|             |   |                            +--| (100)
+|             |   |                               |  +**K_pneumoniae_ERR15165598
+|             |   |                               +**| (98)
+|             |   |                                  +--K_pneumoniae_ERR15165600
+|             +---| (100)
+|                 +---------------------------------K_pneumoniae_ERR15165591
+|
++------------------------K_pneumoniae_SRR31202987
+
+Tree in newick format:
+
+(K_pneumoniae_ERR13744103:0.0521597158,((((((K_pneumoniae_ERR13744107:0.0000512157,K_pneumoniae_ERR13744140:0.0000366929)100:0.0861504410,(((K_pneumoniae_ERR15165589:0.0000278173,K_pneumoniae_ERR15165602:0.0000164883)98:0.0000277722,(K_pneumoniae_ERR15165592:0.0000111937,K_pneumoniae_ERR15165593:0.0000111905)45:0.0000010000)100:0.0024226096,K_pneumoniae_SRR31202985:0.0026755820)100:0.0778205955)100:0.0104708997,K_pneumoniae_SRR31202998:0.0933468819)100:0.0059768861,(((K_pneumoniae_ERR13744109:0.0000104401,K_pneumoniae_ERR13744112:0.0000062961)100:0.0862296405,K_pneumoniae_SRR31202983:0.0776076092)62:0.0089315259,((K_pneumoniae_ERR13744111:0.0131987699,K_pneumoniae_ERR13744132:0.0124225398)100:0.0112236652,(K_pneumoniae_SRR31202976:0.0000452745,(K_pneumoniae_SRR31202995:0.0000058291,K_pneumoniae_SRR31202997:0.0000170056)99:0.0000104530)100:0.0179830531)100:0.0651334134)36:0.0048291321)31:0.0043906317,(K_pneumoniae_SRR31202986:0.0816952152,K_pneumoniae_SRR32003848:0.0822251611)27:0.0083471459)33:0.0033461454,((((K_pneumoniae_ERR13744150:0.0001876226,Reference:0.0001765769)100:0.0000384602,K_pneumoniae_SRR31202914:0.0003080452)97:0.0000309743,(((((K_pneumoniae_ERR15165590:0.0000277738,K_pneumoniae_ERR15165597:0.0000111765)95:0.0000055152,K_pneumoniae_ERR15165599:0.0000010000)3:0.0000010000,K_pneumoniae_ERR15165595:0.0000010000)3:0.0000010000,K_pneumoniae_ERR15165594:0.0000713849)44:0.0000010000,(K_pneumoniae_ERR15165598:0.0000055013,K_pneumoniae_ERR15165600:0.0000384509)98:0.0000112011)100:0.0002113940)100:0.0720940062,K_pneumoniae_ERR15165591:0.0828474398)100:0.0105991661)100:0.0347715750,K_pneumoniae_SRR31202987:0.0628980904);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -726029.451804
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--------------------K_pneumoniae_ERR13744103
+|
+|                                                               +--K_pneumoniae_ERR13744107
+|                            +----------------------------------| (100)
+|                            |                                  +--K_pneumoniae_ERR13744140
+|                        +---| (100)
+|                        |   |                                    +--K_pneumoniae_ERR15165589
+|                        |   |                                 +--| (98)
+|                        |   |                                 |  +--K_pneumoniae_ERR15165602
+|                        |   |                              +--| (100)
+|                        |   |                              |  |  +--K_pneumoniae_ERR15165592
+|                        |   |                              |  +--| (45)
+|                        |   |                              |     +--K_pneumoniae_ERR15165593
+|                        |   +------------------------------| (100)
+|                        |                                  +--K_pneumoniae_SRR31202985
+|                     +--| (100)
+|                     |  +-------------------------------------K_pneumoniae_SRR31202998
+|                  +--| (31)
+|                  |  |                                        +--K_pneumoniae_ERR13744109
+|                  |  |     +----------------------------------| (100)
+|                  |  |     |                                  +--K_pneumoniae_ERR13744112
+|                  |  |  +--| (62)
+|                  |  |  |  +------------------------------K_pneumoniae_SRR31202983
+|                  |  +--| (36)
+|                  |     |                             +----K_pneumoniae_ERR13744111
+|                  |     |                         +---| (100)
+|                  |     |                         |   +----K_pneumoniae_ERR13744132
+|                  |     +-------------------------| (100)
+|                  |                               |      +--K_pneumoniae_SRR31202976
+|                  |                               +------| (100)
+|                  |                                      |  +--K_pneumoniae_SRR31202995
+|                  |                                      +--| (99)
+|                  |                                         +--K_pneumoniae_SRR31202997
+|               +--| (25)
+|               |  +----------------------------------K_pneumoniae_SRR32003848
+|            +--| (47)
+|            |  |                                      +--K_pneumoniae_ERR13744150
+|            |  |                                   +--| (100)
+|            |  |                                   |  +--Reference
+|            |  |                                +--| (97)
+|            |  |                                |  +--K_pneumoniae_SRR31202914
+|            |  |   +----------------------------| (100)
+|            |  |   |                            |           +--K_pneumoniae_ERR15165590
+|            |  |   |                            |        +--| (95)
+|            |  |   |                            |        |  +--K_pneumoniae_ERR15165597
+|            |  |   |                            |     +--| (34)
+|            |  |   |                            |     |  +--K_pneumoniae_ERR15165594
+|            |  |   |                            |  +--| (44)
+|            |  |   |                            |  |  |  +--K_pneumoniae_ERR15165595
+|            |  |   |                            |  |  +--| (23)
+|            |  |   |                            |  |     +--K_pneumoniae_ERR15165599
+|            |  |   |                            +--| (100)
+|            |  |   |                               |  +--K_pneumoniae_ERR15165598
+|            |  |   |                               +--| (98)
+|            |  |   |                                  +--K_pneumoniae_ERR15165600
+|            |  +---| (100)
+|            |      +--------------------------------K_pneumoniae_ERR15165591
++------------| (100)
+|            +---------------------------------K_pneumoniae_SRR31202986
+|
++------------------------K_pneumoniae_SRR31202987
+
+
+Consensus tree in newick format: 
+
+(K_pneumoniae_ERR13744103:0.0522217724,(((((((K_pneumoniae_ERR13744107:0.0000520175,K_pneumoniae_ERR13744140:0.0000369092)100:0.0864233642,(((K_pneumoniae_ERR15165589:0.0000278110,K_pneumoniae_ERR15165602:0.0000167884)98:0.0000277119,(K_pneumoniae_ERR15165592:0.0000110382,K_pneumoniae_ERR15165593:0.0000110379)45:0.0000027541)100:0.0024339173,K_pneumoniae_SRR31202985:0.0026788445)100:0.0780882897)100:0.0104761112,K_pneumoniae_SRR31202998:0.0937432318)100:0.0059184081,(((K_pneumoniae_ERR13744109:0.0000105530,K_pneumoniae_ERR13744112:0.0000063981)100:0.0864811485,K_pneumoniae_SRR31202983:0.0779019937)62:0.0089204870,((K_pneumoniae_ERR13744111:0.0132396437,K_pneumoniae_ERR13744132:0.0124518441)100:0.0112713044,(K_pneumoniae_SRR31202976:0.0000454310,(K_pneumoniae_SRR31202995:0.0000054668,K_pneumoniae_SRR31202997:0.0000165224)99:0.0000099942)100:0.0180156500)100:0.0653170865)36:0.0046971233)31:0.0041311169,K_pneumoniae_SRR32003848:0.0884948439)25:0.0031392668,((((K_pneumoniae_ERR13744150:0.0001881660,Reference:0.0001770884)100:0.0000394201,K_pneumoniae_SRR31202914:0.0003087586)97:0.0000316209,((((K_pneumoniae_ERR15165590:0.0000277811,K_pneumoniae_ERR15165597:0.0000110346)95:0.0000056522,K_pneumoniae_ERR15165594:0.0000719072)34:0.0000023031,(K_pneumoniae_ERR15165595:0.0000023031,K_pneumoniae_ERR15165599:0.0000023031)23:0.0000023031)44:0.0000023031,(K_pneumoniae_ERR15165598:0.0000056522,K_pneumoniae_ERR15165600:0.0000394234)98:0.0000110344)100:0.0002112715)100:0.0723668252,K_pneumoniae_ERR15165591:0.0831003039)100:0.0113120440)47:0.0051774492,K_pneumoniae_SRR31202986:0.0845837405)100:0.0324223642,K_pneumoniae_SRR31202987:0.0631191756);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t tree/K_pneumoniae_no119.treefile -m "GTR{0.975607,5.89731,1.62603,0.445517,5.81515}+F{0.167538,0.333589,0.335631,0.163242}+ASC+G4{0.54882}" --length 87528
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s core/K_pneumoniae_no119.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s core/K_pneumoniae_no119.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Oct 10 03:21:04 2026
+Total CPU time used: 1325.962719 seconds (0h:22m:5s)
+Total wall-clock time used: 450.0023389 seconds (0h:7m:30s)
+

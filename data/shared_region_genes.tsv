@@ -1,0 +1,11 @@
+qcl	scl	side	cluster	isolates	genes_in_shared_region	any_in_integron
+plasmid_AA277	plasmid_AB595	q	plasmid_AA277	3	aph(3'')-Ib,aph(6)-Id,dfrA14,sul2,tet(A)	True
+plasmid_AA277	plasmid_AB595	s	plasmid_AB595	4	aph(3'')-Ib,aph(6)-Id,dfrA14,sul2,tet(A)	False
+plasmid_AA402	plasmid_AB595	q	plasmid_AA402	1	aph(3'')-Ib,aph(6)-Id,sul2,tet(A)	False
+plasmid_AA402	plasmid_AB595	s	plasmid_AB595	1	aph(3'')-Ib,aph(6)-Id,sul2,tet(A)	False
+plasmid_AA474	plasmid_AB951	q	plasmid_AA474	1	blaTEM-1	False
+plasmid_AA474	plasmid_AB951	s	plasmid_AB951	2	blaTEM-1	False
+plasmid_AB042	plasmid_AB042	q	plasmid_AB042	4	qnrB19	False
+plasmid_AB042	plasmid_AB042	s	plasmid_AB042	8	qnrB19	False
+plasmid_AE928	plasmid_AC082	q	plasmid_AE928	1	aph(3'')-Ib,aph(6)-Id,blaTEM-1,dfrA7,sul1,sul2	True
+plasmid_AE928	plasmid_AC082	s	plasmid_AC082	13	aph(3'')-Ib,aph(6)-Id,blaTEM-1,dfrA7,sul1,sul2	True

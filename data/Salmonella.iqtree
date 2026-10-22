@@ -1,0 +1,253 @@
+IQ-TREE 3.1.4 built Sep 29 2026
+
+Input file name: core/Salmonella.aln
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 279284
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Piyumal Demotte, Hector Banos,
+Andrew J. Roger, Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman,
+Matthew W. Hahn, Mario dos Reis, Le Sy Vinh, Gavin Huttley, Robert Lanfear, Bui Quang Minh (2026)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Molecular Biology and Evolution, msag117.
+https://doi.org/10.1093/molbev/msag117
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+NOTE: Alignment sequence type is auto-detected. If in doubt, specify it via -st option.
+Input data: 31 sequences with 105542 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 72844
+Number of distinct site patterns: 1303
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+ASC+G4
+
+Rate parameter R:
+
+  A-C: 0.9830
+  A-G: 6.8395
+  A-T: 0.9312
+  C-G: 0.3835
+  C-T: 6.9745
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2111
+  pi(C) = 0.2868
+  pi(G) = 0.2955
+  pi(T) = 0.2067
+
+Rate matrix Q:
+
+  A    -1.207    0.1364    0.9775    0.0931
+  C    0.1004   -0.8525   0.05481    0.6973
+  G    0.6983    0.0532   -0.8515   0.09997
+  T   0.09508    0.9676    0.1429    -1.206
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 998.9
+
+ Category  Relative_rate  Proportion
+  1         0.9601         0.25
+  2         0.9894         0.25
+  3         1.01           0.25
+  4         1.04           0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -548349.6916 (s.e. 631.2664)
+Unconstrained log-likelihood (without tree): -521631.0625
+Number of free parameters (#branches + #model parameters): 62
+Akaike information criterion (AIC) score: 1096823.3833
+Corrected Akaike information criterion (AICc) score: 1096823.4573
+Bayesian information criterion (BIC) score: 1097416.5289
+
+Total tree length (sum of branch lengths): 0.8721
+Sum of internal branch lengths: 0.4710 (54.0123% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Reference' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++-----------------Reference
+|
+|                                                                                +--Salmonella_ERR15983674
+|                                                                             +**| (72)
+|                                                                             |  +--Salmonella_ERR15983683
+|                                                                          +**| (61)
+|                                                                          |  |  +--Salmonella_ERR15983680
+|                                                                          |  +--| (100)
+|                                                                          |     |  +--Salmonella_ERR15983681
+|                                                                          |     +**| (81)
+|                                                                          |        +**Salmonella_ERR15983682
+|                                                                       +--| (90)
+|                                                                       |  +--Salmonella_ERR15983695
+|                                                                    +**| (74)
+|                                                                    |  |  +--Salmonella_ERR15983675
+|                                                                    |  +--| (94)
+|                                                                    |     +--Salmonella_ERR15983679
+|                                                                 +--| (85)
+|                                                                 |  +--Salmonella_ERR15983690
+|                                                              +--| (87)
+|                                                              |  +--Salmonella_ERR15983678
+|                                                           +--| (69)
+|                                                           |  |     +--Salmonella_ERR5466507
+|                                                           |  |  +--| (65)
+|                                                           |  |  |  +--Salmonella_ERR5466529
+|                                                           |  +**| (41)
+|                                                           |     +--Salmonella_ERR5466554
+|                                                        +--| (100)
+|                                                        |  |     +**Salmonella_ERR5466511
+|                                                        |  |  +--| (98)
+|                                                        |  |  |  +--Salmonella_ERR5466558
+|                                                        |  +--| (52)
+|                                                        |     +--Salmonella_ERR5466512
+|                          +-----------------------------| (100)
+|                          |                             +--Salmonella_ERR5466551
+|            +-------------| (100)
+|            |             +-------------------------Salmonella_ERR5466516
+|      +-----| (100)
+|      |     |                                                    +**Salmonella_SRR32528473
+|      |     |                                                 +--| (96)
+|      |     |                                                 |  +**Salmonella_SRR32528477
+|      |     |                                              +--| (100)
+|      |     |                                              |  +**Salmonella_SRR32528501
+|      |     |                                           +**| (98)
+|      |     |                                           |  |  +--Salmonella_SRR32528480
+|      |     |                                           |  +--| (100)
+|      |     |                                           |     +--Salmonella_SRR32528490
+|      |     +-------------------------------------------| (100)
+|      |                                                 |  +--Salmonella_SRR32528485
+|      |                                                 +--| (100)
+|      |                                                    +--Salmonella_SRR32528487
++------| (100)
+|      +-----------------------Salmonella_ERR5466548
+|
++------------------Salmonella_ERR5466510
+
+Tree in newick format:
+
+(Reference:0.0852879787,((((((((((((Salmonella_ERR15983674:0.0000268696,Salmonella_ERR15983683:0.0000160933)72:0.0000009475,(Salmonella_ERR15983680:0.0000163091,(Salmonella_ERR15983681:0.0000268696,Salmonella_ERR15983682:0.0000061268)81:0.0000009475)100:0.0000222077)61:0.0000009475,Salmonella_ERR15983695:0.0000312876)90:0.0000268701,(Salmonella_ERR15983675:0.0000204903,Salmonella_ERR15983679:0.0000214159)94:0.0000104380)74:0.0000009475,Salmonella_ERR15983690:0.0000323889)85:0.0000163080,Salmonella_ERR15983678:0.0000644550)87:0.0000213651,((Salmonella_ERR5466507:0.0000486227,Salmonella_ERR5466529:0.0000113265)65:0.0000323894,Salmonella_ERR5466554:0.0000377941)41:0.0000009475)69:0.0000105372,((Salmonella_ERR5466511:0.0000018975,Salmonella_ERR5466558:0.0000531735)98:0.0000272518,Salmonella_ERR5466512:0.0001127804)52:0.0000310460)100:0.0007516841,Salmonella_ERR5466551:0.0006446520)100:0.1389819863,Salmonella_ERR5466516:0.1195069410)100:0.0663972491,((((Salmonella_SRR32528473:0.0000009475,Salmonella_SRR32528477:0.0000009475)96:0.0000107399,Salmonella_SRR32528501:0.0000009475)100:0.0001029506,(Salmonella_SRR32528480:0.0000755144,Salmonella_SRR32528490:0.0000107656)100:0.0001029510)98:0.0000020134,(Salmonella_SRR32528485:0.0000269518,Salmonella_SRR32528487:0.0000863107)100:0.0001076265)100:0.1994994835)100:0.0309661263,Salmonella_ERR5466548:0.1088660878)100:0.0339118845,Salmonella_ERR5466510:0.0859997794);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -548351.30300922
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------------Reference
+|
+|                                                                                +--Salmonella_ERR15983674
+|                                                                             +--| (72)
+|                                                                             |  +--Salmonella_ERR15983683
+|                                                                          +--| (61)
+|                                                                          |  |  +--Salmonella_ERR15983680
+|                                                                          |  +--| (100)
+|                                                                          |     |  +--Salmonella_ERR15983681
+|                                                                          |     +--| (81)
+|                                                                          |        +--Salmonella_ERR15983682
+|                                                                       +--| (90)
+|                                                                       |  +--Salmonella_ERR15983695
+|                                                                    +--| (74)
+|                                                                    |  |  +--Salmonella_ERR15983675
+|                                                                    |  +--| (94)
+|                                                                    |     +--Salmonella_ERR15983679
+|                                                                 +--| (85)
+|                                                                 |  +--Salmonella_ERR15983690
+|                                                              +--| (87)
+|                                                              |  +--Salmonella_ERR15983678
+|                                                           +--| (69)
+|                                                           |  |     +--Salmonella_ERR5466507
+|                                                           |  |  +--| (65)
+|                                                           |  |  |  +--Salmonella_ERR5466529
+|                                                           |  +--| (41)
+|                                                           |     +--Salmonella_ERR5466554
+|                                                        +--| (100)
+|                                                        |  |     +--Salmonella_ERR5466511
+|                                                        |  |  +--| (98)
+|                                                        |  |  |  +--Salmonella_ERR5466558
+|                                                        |  +--| (52)
+|                                                        |     +--Salmonella_ERR5466512
+|                          +-----------------------------| (100)
+|                          |                             +--Salmonella_ERR5466551
+|            +-------------| (100)
+|            |             +-------------------------Salmonella_ERR5466516
+|      +-----| (100)
+|      |     |                                                             +**Salmonella_SRR32528473
+|      |     |                                                          +**|
+|      |     |                                                          |  +**Salmonella_SRR32528506
+|      |     |                                                       +**|
+|      |     |                                                       |  +**Salmonella_SRR32528499
+|      |     |                                                    +--|
+|      |     |                                                    |  +**Salmonella_SRR32528504
+|      |     |                                                 +--| (96)
+|      |     |                                                 |  +--Salmonella_SRR32528477
+|      |     |                                              +--| (100)
+|      |     |                                              |  +--Salmonella_SRR32528501
+|      |     |                                           +--| (98)
+|      |     |                                           |  |  +--Salmonella_SRR32528480
+|      |     |                                           |  +--| (100)
+|      |     |                                           |     +--Salmonella_SRR32528490
+|      |     +-------------------------------------------| (100)
+|      |                                                 |  +--Salmonella_SRR32528485
+|      |                                                 +--| (100)
+|      |                                                    +--Salmonella_SRR32528487
++------| (100)
+|      +-----------------------Salmonella_ERR5466548
+|
++------------------Salmonella_ERR5466510
+
+
+Consensus tree in newick format: 
+
+(Reference:0.0852963713,((((((((((((Salmonella_ERR15983674:0.0000270517,Salmonella_ERR15983683:0.0000169804)72:0.0000020134,(Salmonella_ERR15983680:0.0000169806,(Salmonella_ERR15983681:0.0000270518,Salmonella_ERR15983682:0.0000059981)81:0.0000020134)100:0.0000216413)61:0.0000020134,Salmonella_ERR15983695:0.0000328929)90:0.0000270522,(Salmonella_ERR15983675:0.0000216415,Salmonella_ERR15983679:0.0000216411)94:0.0000108008)74:0.0000020134,Salmonella_ERR15983690:0.0000329697)85:0.0000169791,Salmonella_ERR15983678:0.0000646421)87:0.0000216432,((Salmonella_ERR5466507:0.0000484830,Salmonella_ERR5466529:0.0000109084)65:0.0000329701,Salmonella_ERR5466554:0.0000384650)41:0.0000020134)69:0.0000108607,((Salmonella_ERR5466511:0.0000020134,Salmonella_ERR5466558:0.0000533909)98:0.0000271680,Salmonella_ERR5466512:0.0001131196)52:0.0000325142)100:0.0007525094,Salmonella_ERR5466551:0.0006449861)100:0.1390012697,Salmonella_ERR5466516:0.1195223738)100:0.0664062363,(((((((Salmonella_SRR32528473:0.0000000000,Salmonella_SRR32528506:0.0000000000):0.0000000000,Salmonella_SRR32528499:0.0000000000):0.0000000000,Salmonella_SRR32528504:0.0000000000):0.0000020134,Salmonella_SRR32528477:0.0000020134)96:0.0000114244,Salmonella_SRR32528501:0.0000020726)100:0.0001022910,(Salmonella_SRR32528480:0.0000760488,Salmonella_SRR32528490:0.0000113747)100:0.0001022914)98:0.0000020134,(Salmonella_SRR32528485:0.0000271537,Salmonella_SRR32528487:0.0000869229)100:0.0001069307)100:0.1995216312)100:0.0309683886,Salmonella_ERR5466548:0.1088785787)100:0.0339139079,Salmonella_ERR5466510:0.0860086825);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t tree/Salmonella.treefile -m "GTR{0.983023,6.83945,0.931216,0.383491,6.97455}+F{0.211077,0.286788,0.295463,0.206672}+ASC+G4{998.933}" --length 105542
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s core/Salmonella.aln --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s core/Salmonella.aln --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sat Oct 10 03:21:44 2026
+Total CPU time used: 114.691687 seconds (0h:1m:54s)
+Total wall-clock time used: 39.95324087 seconds (0h:0m:39s)
+

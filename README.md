@@ -63,3 +63,4 @@ data/
 The `data/` folder also holds other result tables (`contig_report_all.tsv`, `mobtyper_all.tsv`, `mge_report_all.tsv`, `cross_species_pairs.tsv`, `plasmid_pairs.tsv`, `shared_region_genes.tsv`) and the IQ-TREE reports (`.iqtree`). The app does not use them.
 
 Raw reads and assemblies are not included.
+Live app:https://ruvarashe.shinyapps.io/shiny-resistome-app/

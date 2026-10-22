@@ -1,4 +1,4 @@
-# shiny-resistome-app
+# Shiny-Resistome-App
 
 An interactive R Shiny app for exploring antimicrobial resistance genes, integrons, plasmids and phylogeny in 94 bacterial isolates (32 *E. coli*, 30 *Salmonella* and 32 *K. pneumoniae*) from Malawi, Zambia and South Africa.
 
